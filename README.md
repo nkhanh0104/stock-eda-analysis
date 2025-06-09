@@ -28,6 +28,7 @@ Generated plots are saved in the reports/ folder.
 
 Main libraries used:
 yfinance
+numpy
 pandas
 matplotlib
 seaborn
