@@ -7,6 +7,7 @@ All analysis and visualization are done in the notebook `notebooks/stock_eda.ipy
 ---
 
 ## Project Structure
+```plaintext
 stock-eda-analysis/
 │
 ├── notebooks/
