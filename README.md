@@ -32,7 +32,7 @@ stock-eda-analysis/
 │ └── correlation_heatmap_may_aug_2024.png
 │ └── cumulative_log_returns_may_aug_2024.png
 │ └── daily_log_returns_may_aug_2024.png
-│ └── kde_daily_returns_may_aug_2024.png
+│ └── kde_daily_log_returns_may_aug_2024.png
 │ └── rolling_volatility_may_aug_2024.png
 │ └── volatility_bar_chart_may_aug_2024.png
 ├── requirements.txt # Required Python libraries
