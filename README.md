@@ -64,25 +64,30 @@ stock-eda-analysis/
 │ └── rolling_volatility_may_aug_2024.png
 │ └── volatility_bar_chart_may_aug_2024.png
 ├── requirements.txt # Required Python libraries
-└── README.md```
+└── README.md
+```
 ## 📘 How to Run
-1. Clone this repository:
-  ```bash
+```bash
+  # Clone this repository:
   git clone https://github.com/nkhanh0104/stock-eda-analysis.git
-  cd stock-eda-analysis```
-  
-2. (Optional) Create and activate a virtual environment
-- python -m -venv venv
-- source venv/bin/activate # or venv\Scripts\activate on Windows
+  cd stock-eda-analysis
+  ```
+(Optional) Create and activate a virtual environment
+```bash
+python -m -venv venv
+source venv/bin/activate # or venv\Scripts\activate on Windows
+```
+Install required libraries
+```bash
+pip install -r requirements.txt
+```
+Launch Jupyter Notebook:
+```bash
+jupyter notebook
+```
 
-3. Install required libraries
-- pip install -r requirements.txt
+Open stock_eda_analysis.ipynb and run the cells
 
-4. Launch Jupyter Notebook:
-- jupyter notebook
-
-5. Open stock_eda_analysis.ipynb and run the cells
-
-✍️ Author
+## ✍️ Author
 Nguyen Nhu Khanh
 Aspiring Data Scientist with strong software development background, currently exploring time series data analysis in finance.
